@@ -15,20 +15,21 @@ main{
   align-items: center;
   background: linear-gradient(90deg, #672280 0%, #A626D3 100%);
   color: white;
-  padding: 20px;
+  padding: 15px;
   height: 85px;
 }
 .header-img{
-  height: 100%;
-  margin-right: 20px;
+  height: 60%;
+  margin-right: 10px;
 }
 .header-title{
-  font-size: 25px;
+  font-size: 17px;
+  font-weight: bold;
   margin-right: auto; 
 }
 .header-text{
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 400;
 }
 .form{
   display: grid;
@@ -53,23 +54,21 @@ main{
   width: 100%;
 }
 .meme {
-  position: relative;
   max-width: 100%;
+  position: relative;
+  left: 10%;
+  margin-top: 20px;
 }
 
 .meme-image {
-  position: relative;
-  left: 50%;
-  width: 100%;
-  margin-top: 12px;
-  border-radius: 3px;
+  width: 80%;
+  border-radius: 5px;
 }
 
 .meme-text {
   position: absolute;
-  width: 80%;
   text-align: center;
-  left: 100%;
+  left: 40%;
   transform: translateX(-50%);
   margin: 15px 0;
   padding: 0 5px;

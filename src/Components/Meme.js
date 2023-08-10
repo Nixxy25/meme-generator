@@ -56,9 +56,10 @@ function Meme() {
                 onChange={handleChange}
                 value={meme.bottomText}
             />
-            <button onClick={getMemeImage} 
+         <button onClick={getMemeImage} 
                 className='form-button'>Get a new meme image  🖼</button>
-
+       </div>
+       
              <div className="meme">
                 <img src={meme.randomImage} className="meme-image" />
                 
@@ -67,7 +68,7 @@ function Meme() {
                 <h2 className="meme-text bottom">{meme.bottomText}</h2>
 
             </div>
-        </div>
+        
     </main>
   )
 }
